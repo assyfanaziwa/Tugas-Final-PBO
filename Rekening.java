@@ -34,7 +34,7 @@ public class Rekening {
         return saldo;
     }
     
-    public void setSaldo(Double saldo) {
+    public double getSaldo(Double saldo) {
         this.saldo.set(saldo);
     }
 

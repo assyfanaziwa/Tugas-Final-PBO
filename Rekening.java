@@ -33,7 +33,8 @@ public class Rekening {
     public DoubleProperty saldoProperty() {
         return saldo;
     }
- public void setSaldo(Double saldo) {
+    
+    public void setSaldo(Double saldo) {
         this.saldo.set(saldo);
     }
 

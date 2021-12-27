@@ -33,5 +33,16 @@ public class Rekening {
     public DoubleProperty saldoProperty() {
         return saldo;
     }
+ public void setSaldo(Double saldo) {
+        this.saldo.set(saldo);
+    }
 
+    public void tambahSaldo(Double jumlah){
+        setSaldo(this.saldo.get() + jumlah);
+    }
+
+    public void tarikTunai(Double jumlah){
+        setSaldo(this.saldo.get() - jumlah);
+    }
+}
     

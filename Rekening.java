@@ -17,5 +17,21 @@ public class Rekening {
     public Integer getNoRekening() {
         return noRekening.get();
     }
+    
+    public IntegerProperty noRekeningProperty() {
+        return noRekening;
+    }
+
+    public void setNoRekening(Integer noRekening) {
+        this.noRekening.set(noRekening);
+    }
+
+    public double getSaldo() {
+        return saldo.get();
+    }
+
+    public DoubleProperty saldoProperty() {
+        return saldo;
+    }
 
     
